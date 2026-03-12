@@ -80,3 +80,59 @@ nav ul li a:hover {
 main {
   margin-top: 62px; 
 }
+
+/* HERO SECTION */
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 80px;
+  min-height: 90vh;
+}
+
+.hero-text{
+  max-width: 500px;
+}
+
+.tag{
+  color: #7b4cff;
+  font-weight: bold;
+}
+
+.hero-text h1{
+  font-size: 60px;
+  margin: 20px 0;
+  color: #6a1bbf;
+}
+
+.hero-text h1 span{
+  color: #ff4fb3;
+}
+
+.hero-text p{
+  color: #444;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn-explorar{
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: linear-gradient(45deg,#7b4cff,#ff4fb3);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.btn-explorar:hover{
+  transform: scale(1.05);
+}
+
+.hero-img img{
+  width: 450px;
+  border-radius: 20px;
+}
